@@ -10,7 +10,7 @@ html,body{
     height:100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url(https://images6.alphacoders.com/481/481285.jpg);
+    background-image: url(https://lh3.googleusercontent.com/pw/AJFCJaVg0fk_P8AvOu-Bk0Gzvr51H592zKIbOoEh8Tb-j-JEKzaKTJ1mYpaynaL4n6bOBJRbvGyDYLyeX9p_gilTfRkkbBSWvFH_LFgt3LjNykQfDkpwD8qFPhDdzAgwVEU2K46UhP3veJGHbDKhTmxq2AJaZg=w728-h410-s-no?authuser=3);
     background-position: center;
     background-size: cover;
 }
@@ -18,6 +18,10 @@ html,body{
 header{
     height: 200px;
     padding: 20px 0;
+}
+.texto-sobre h1{
+    font-size: 45px;
+    color: white;
 }
 
 .header{
@@ -83,7 +87,7 @@ header{
     width: 1000px;
     height: 890px;
     border-radius: 50%;
-    background-image: linear-gradient( #e86100, #800080);
+    background-image: -gradient( #e86100, #800080);
 }
  
 .extras img{
@@ -118,18 +122,26 @@ img{
     position: relative;
     left: 35px;
 }
+.Em_breve
+{
+position: relative;
+left: 1px;
 
+}
 
 
 .translucent-box {
     position: relative;
-    top: 160px;
-    width: 850px;
-    height: 380px;
-    right: 130px;
-    left: auto;
-    background-image: linear-gradient(#6b15b5,#FF4500 );
+    top: 190px;
+    width: 400px;
+    height: 100px;
+    right: 150px;
+    left: 350px;
+    background-color: #2D0457;
     padding: 20px;
     border-radius: 25px;
-    opacity: 80%;
+    opacity: 70%;
+    border-width: 4px solid ;
+    border-style: solid ;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.5);
   }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Inside There- Site em construção</title> 
-    <link rel="stylesheet" href="login_page.css"/>
+    <link rel="stylesheet" href="cadastro.css"/>
     <link rel="icon" href="/imagens/Ativo_5.png" type="image/png"> 
 
 </head>
@@ -26,8 +26,13 @@
 
     <div class="form-box Registerform"> 
         <div class="form-value">
-            <span style="color: white;"><h2>Login</h2></span>
-
+            <span style="color: white;"><h2>Register</h2></span>
+              <div class="input-box">
+                <span class="icon">
+                <ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label for=""><span style="color: white;">Username:</span></label>
+            </div>
             <div class="input-box">
                 <span class="icon">
                 <ion-icon name="mail"></ion-icon></span>
@@ -43,7 +48,10 @@
             <div class="remember-forgot">
                 <label><input type="checkbox">
                 Remember me</label></div>
-            <a href="Index.html"><button class="btn"><h4> Login</h4></button></a>
+                <a href="Login_page.html">            <button class="btn"><h4> Register</h4></button></a>
+            <div class="login-register">
+                <p>Already have an account? <a href="Login_page.html" class="login-link">Login</a></p>
+                </div>
             </div>
         </div>
     </div>

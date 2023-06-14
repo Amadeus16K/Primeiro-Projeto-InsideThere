@@ -13,14 +13,14 @@
    max-width: 1400px;
    margin: 20px auto;
    padding:0 2%;
-   
 }
 
 html,body{
     height:100%;
+    position: relative;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url(https://lh3.googleusercontent.com/pw/AJFCJaVg0fk_P8AvOu-Bk0Gzvr51H592zKIbOoEh8Tb-j-JEKzaKTJ1mYpaynaL4n6bOBJRbvGyDYLyeX9p_gilTfRkkbBSWvFH_LFgt3LjNykQfDkpwD8qFPhDdzAgwVEU2K46UhP3veJGHbDKhTmxq2AJaZg=w728-h410-s-no?authuser=3); 
+    background-image:  url(https://wallpapercave.com/wp/wp3293972.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -43,7 +43,7 @@ header{
 .navbar a{
     position: relative;
     font-size: 16px;
-    color: #FF8C00;
+    color: #fff;
     margin-right: 30px;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ header{
     left: 0;
     width: 100%;
     height: 2px;
-    background: #FF8C00;
+    background: #fff;
     bottom: -5px;
     border-radius: 5px;
     transform: translateY(10px);
@@ -69,7 +69,7 @@ header{
 
 .action_btn 
 {
-    background-color: #2D0457;
+    background-color: purple;
     color: beige;
     padding: 0.5rem 1rem;
     border: none;
@@ -150,89 +150,25 @@ header{
 }
 .translucent-box {
     position: relative;
-    top: 190px;
-    width: 860px;
-    height: 250px;
-    right: 210px;
-    left: auto;
-    background-color: #2D0457;
+    top: 90px;
+    width: 380px;
+    height: 500px;
+    right: auto;
+    left: 315px;
+    background: transparent;
+    backdrop-filter: blur(20px);
     padding: 20px;
     border-radius: 25px;
-    opacity: 70%;
-    border-width: 4px solid ;
-    border-style: solid ;
-    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.5);
-    
-  }
+    opacity: 80%;
+    box-shadow: 0px 4px 50px rgba(255,255,255, 0.5);
+}
+
 
 section.sobre{
     height: calc(100% - 200px);
     position: relative;
 }
 
-.extras{
-    position: absolute;
-    bottom:-450px;
-    right:-500px;
-    width: 1000px;
-    height: 1000px;
-    border-radius: 50%;
-    background-color: #2D0457;
-    opacity: 80%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-style: solid;
-    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.5);
-
-}
-
-.social-media{
-    position: absolute;
-    right: 510px;
-    top: 200px;
-    opacity: 100%;
-}
-
-.social-media  img{ 
-    display: block;
-    width: 35px;
-    margin: 20px 0;
-}
-
-.texto-sobre{
-    margin-top: 40px;
-}
-
-.texto-sobre h1{
-    font-size: 45px;
-    color: white;
-}
-
-.texto-sobre p{
-    margin: 20px 0;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: bold;
-    max-width: 800px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.newslatter form{
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
-
-
-.newslatter form input:first-child{
-    display: inline-block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid #a60b7f;
-    outline: none;
-    border-radius: 30px;
-}
 
 
 .backgroud-color-sobre{
@@ -247,4 +183,109 @@ section.sobre{
     justify-content: space-around;
     width: 1120px;
     margin: 0 auto;
+}
+
+.form-value{
+    position: relative;
+    left: 650px;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: white;
+}
+
+.input-box{
+    position: relative;
+    width: 15%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:focus~label {
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1em;
+    color: black;
+    line-height: 57px;
+}
+
+.remember-forgot{
+    font-size: .9em;
+    color: white;
+    font-weight: 500;
+    margin: 15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: purple;
+    margin-right: 3px;
+}
+
+.btn{
+    width: 15%;
+    height: 45px;
+    background: #2D0457;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #ff8c00;
+    font-weight: 500;
+}
+
+.login-register{
+    font-size: .9em;
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a {
+    color: #ff8c00;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover{
+    text-decoration: underline;  
 }

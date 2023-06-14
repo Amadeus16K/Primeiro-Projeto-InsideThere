@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;400&display=swap');
 
-
 *{
-
+    font-family: 'Ysabeau', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 html,body{
     height:100%;
     overflow-y: hidden;
     overflow-x: hidden;
-    background-image: url(https://images6.alphacoders.com/481/481285.jpg);
+    background-image: url(https://lh3.googleusercontent.com/pw/AJFCJaVg0fk_P8AvOu-Bk0Gzvr51H592zKIbOoEh8Tb-j-JEKzaKTJ1mYpaynaL4n6bOBJRbvGyDYLyeX9p_gilTfRkkbBSWvFH_LFgt3LjNykQfDkpwD8qFPhDdzAgwVEU2K46UhP3veJGHbDKhTmxq2AJaZg=w728-h410-s-no?authuser=3);
     background-position: center;
     background-size: cover;
 }
@@ -83,15 +84,18 @@ header{
     width: 1000px;
     height: 890px;
     border-radius: 50%;
-    background-image: linear-gradient( #e86100, #800080);
+    background-color: #2D0457;
+    border-width: 4px solid;
+    border-style: solid;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.5);
 }
  
 .extras img{
     position: absolute;
-    left: 70px;
-    height: 450px;
-    width: 370px;
-    top: 50px; 
+    left: 30px;
+    height: 480px;
+    width: 390px;
+    top: -59px; 
 }
 
  header{
@@ -116,6 +120,7 @@ img{
  
 .centro{
     position: relative;
+    top: -15px;
     left: 35px;
 }
 
@@ -126,13 +131,16 @@ font-size: 1.5em;
 
 .translucent-box {
     position: relative;
-    top: 160px;
-    width: 850px;
-    height: 380px;
-    right: 130px;
+    top: 110px;
+    width: 875px;
+    height: 520px;
+    right: 140px;
     left: auto;
-    background-image: linear-gradient(#6b15b5,#FF4500 );
+    background-color: #2D0457;
     padding: 20px;
     border-radius: 25px;
     opacity: 80%;
+    border-width: 4px solid;
+    border-style: solid;
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.5);
   }
